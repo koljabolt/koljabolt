@@ -14,4 +14,5 @@ h1 {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 50px;
     text-align: center;
+    border-style: none;
 }
