@@ -5,7 +5,8 @@ body{
     font-family: "Helvetica Neue Light", sans-serif;
     color:salmon;
     font-size: 25px;
-    margin: 0;
+    border-style: none;
+    border: 0px;
     padding: 20px;
 }
 
@@ -21,4 +22,6 @@ h1 {
     margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
+    border-style: none;
+    border: 0px;
 }
