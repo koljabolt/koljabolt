@@ -1,8 +1,7 @@
 body{
     background: #D9E7FF; 
     background: radial-gradient(circle, rgba(217, 231, 255, 1) 50%, rgba(227, 255, 231, 1) 0%);
-    background-attachment: fixed;
-    background-size: cover;
+    background-attachment: scroll;
     font-family: "Helvetica Neue Light", sans-serif;
     color:salmon;
     font-size: 25px;
