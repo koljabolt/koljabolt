@@ -6,76 +6,90 @@
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Kolja Boldyrev">
   </head>
-  <link rel="stylesheet" href="style.css">
+  <!--link rel="stylesheet" href="style.css"-->
   <style>
-    .header {
+    body{
+    background: #dde1e5;
+    background-image: url("images/bg text 01.png");
+    }
+
+    h1 {
+        color:  salmon;
+        font-family: "Helvetica Neue", sans-serif;
+        font-size: 40px;
+    }
+
+    h2 {
+        color: olive;
+        font-family: "Helvetica Neue Light", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        outline-style: none;
+        padding: 2px;
+    }
+    .griddy {
       display: grid;
       grid-template-columns: 1fr 2fr 1fr;
-      gap: 5px;
-      padding: 5px;
+      justify-content: center;
+      gap: 1px;
+      padding: 20%;
+      border: 1px;
       grid-template-areas: 
-        "topleft topcenter topright"
-        "bottomleft bottomcenter bottom right";
+        "topcenter topcenter topcenter"
+        "bottomleft bottomcenter bottomright"
+        "midcenter midcenter midcenter";
     }
-    .header div {
+    .griddy div {
       padding: 10px;
       background-color: aqua;
     }
-    .header div.topleft {
-      grid-area: topleft;
-      text-align: right
-    }
-    .header div.topcenter {
+    .griddy div.topcenter {
       grid-area: topcenter;
       align-items: center;
+      justify-content: center;
+
+      text-align: center;
     }
-    .header div.topright {
-      grid-area: topright;
-      text-align: left;
-    }
-    .header div.bottomleft {
+    .griddy div.bottomleft {
       grid-area: bottomleft;
       text-align: center;
     }
-    .header div.bottomcenter {
+    .griddy div.bottomcenter {
       grid-area: bottomcenter;
       text-align: center;
     }
-    .header div.bottomright {
+    .griddy div.bottomright {
       grid-area: bottomright;
       text-align: center;
     }    
-    .container {
-      display: flex;
+    .griddy div.midcenter {
+      grid-area: midcenter;
       justify-content: center;
-      align-items: center;
-      gap: 20px;
+      align-self: center;
     }
   </style>
   <body>
-      <div class="header">
-        <div class="top left">
-          <h1> KOLJA </h1>
-        </div>
-        <div class="top center">
+      <div class="griddy">
+        <div class="topcenter">
+          <h1>KOLJA
           <img src="images/logo.webp" alt="logo">
+          BOLDYREV
+          </h1>
         </div>
-        <div class="top right">
-          <h1> BOLDYREV </h1>
-        </div>
-        </div class="bottomleft">
-          <h2> Digital Art </h2>
+        <div class="bottomleft">
+          <h2> Digital Art 
+          </h2>
         </div>
         <div class="bottomcenter">
           <h2> Animation </h2>
         </div>
         <div class="bottomright">
           <h2> Storytelling</h2>
-      </div>
-      <div class="container">
-        <a href="art.html"><img src="images/art.png" alt="artwork"></a>
-        <a href="prj.html"><img src="images/prj.png" alt="projects"></a>
-      </div>
+        </div>
+        <div class="midcenter">
+          <a href="art.html"><img src="images/art.png" alt="artwork"></a>
+          <a href="prj.html"><img src="images/prj.png" alt="projects"></a>
+        </div>
     </div>
   </body>
 </html>   
