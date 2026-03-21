@@ -4,7 +4,8 @@
 
 /* Set a background color */
 body {
-  background-color: #d7d8da;
+  background: #afb7bf;
+  background-image: url("images/bg text 01.png");
   font-family: "Helvetica Neue Light", sans-serif;
 }
 
@@ -20,7 +21,7 @@ body {
   content: '';
   position: absolute;
   width: 5px;
-  background-color: #f5feff;
+  background-color: #afb7bf;
   top: 0;
   bottom: 0;
   left: 50%;
