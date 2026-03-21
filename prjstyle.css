@@ -124,7 +124,7 @@ body {
     left: 60px;
     border: medium solid rgb(184, 255, 18);
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent rgb(170, 8, 8) transparent transparent;
   }
 
 /* Make sure all circles are at the same spot */
