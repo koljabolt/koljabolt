@@ -24,7 +24,8 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr  1fr;
     gap: 1px;
-    padding: 30px;
+    padding: 10px;
+    margin:10px
     border: 1px;
     grid-template-areas: 
     "topleft topcenter topcenter topcenter topright"
@@ -33,7 +34,7 @@ img {
     "footer footer footer footer footer";
 }
 .griddy div {
-    padding: 10px;
+    padding: 5px;
 }
 .griddy div.topleft {
     grid-area: topleft;
