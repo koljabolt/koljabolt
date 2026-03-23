@@ -29,7 +29,7 @@ img {
     border: 1px;
     grid-template-areas: 
         "topleft topcenter topcenter topcenter topright"
-        "midleft midcenter midright"
+        "midleft midcenter midcenter midcenter midright"
         "picleft pic1 piccenter pic2 picright"
         "footer footer footer footer footer";
 }
