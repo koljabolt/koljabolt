@@ -128,7 +128,6 @@ img {
 /* Hidden dropdown content */
 .dropdown-content {
     display: none;
-    padding-top: 10px;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 200px;
@@ -144,6 +143,7 @@ img {
     display: block;
     font-family: "Helvetica Neue", sans-serif;
     font-size: 14px;
+    text-align: center;
 }
 
 /* Show content on hover */
