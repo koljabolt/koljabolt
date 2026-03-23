@@ -119,9 +119,9 @@ img {
 
 /* Style the image as a button */
 .dropbtn {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%; /* Optional: rounded image */
+  width: auto;
+  height: 100px;
+  border-radius: none; 
   cursor: pointer;
 }
 
@@ -141,6 +141,8 @@ img {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
 }
 
 /* Show content on hover */
