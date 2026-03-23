@@ -155,3 +155,10 @@ img {
 .dropdown:hover .dropbtn {
   background-color: #e3e3e3;
 }
+
+/*icons*/
+.iconbox {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
