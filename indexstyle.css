@@ -156,20 +156,5 @@ img {
   background-color: #e3e3e3;
 }
 
-/*icons*/
-.iconbox {
-    height: 100%;
-    padding: 30px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-.iconbox-item {
-    width: auto;
-    padding: 5px;
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-}
 
 
