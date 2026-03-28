@@ -47,7 +47,7 @@ img {
     height: auto;
 }
 .griddy div.m2 {
-      grid-area: m2;
+    grid-area: m2;
     align-items: center;
     text-align: center;
     object-fit:  fill;
@@ -55,6 +55,7 @@ img {
 } 
 .griddy div.m3 {
     grid-area: m3;
+    display: inline-block;
     align-items: center;
     text-align: center;
     width: 100%;
