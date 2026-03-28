@@ -31,7 +31,7 @@ img {
     border: 1px;
     grid-template-areas: 
         "t1 t2 t2 t3"
-        "m1 m2 m3 m4"
+        "m1 m3 m3 m4"
         "b1 b2 b2 b3"
         "f1 f2 f2 f3";
 }
