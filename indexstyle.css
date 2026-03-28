@@ -64,11 +64,13 @@ img {
     grid-area: p3;
     align-items: center;
     text-align: center;
+    object-fit: contain;
 }
 .griddy div.p4 {
     grid-area: p4;
     align-items: center;
     text-align: center;
+    object-fit: contain;
 }
 
 .griddy div.f2 {
