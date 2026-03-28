@@ -18,8 +18,8 @@ h2 {
     font-weight: lighter;
 }
 img {
-    max-width: 100%;
-    height: auto;
+    width: auto;
+     height: 100%;
 }
 
 .griddy {
