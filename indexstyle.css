@@ -64,21 +64,18 @@ img {
       grid-area: m2;
     align-items: center;
     text-align: center;
-    object-fit: contain;
     width: 100%;
 } 
 .griddy div.m3 {
     grid-area: m3;
     align-items: center;
     text-align: center;
-    object-fit: contain;
     width: 100%;
 }
 .griddy div.m4 {
     grid-area: m4;
     align-items: center;
     text-align: center;
-    object-fit: contain;
     width: 100%;
 }
 
