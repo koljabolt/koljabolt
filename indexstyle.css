@@ -30,9 +30,9 @@ img {
     margin:10px;
     border: 1px;
     grid-template-areas: 
-        "topleft topcenter topcenter topcenter topright"
-        "midleft midcenter midcenter midcenter midright"
-        "picleft piccenter piccenter piccenter picright"
+        "topleft topcenter topright"
+        "midleft midcenter midright"
+        "picleft piccenter picright"
         "footer footer footer footer footer";
 }
 .griddy div {
@@ -64,22 +64,20 @@ img {
 }
 .griddy div.midright {
     grid-area: midright;
-    text-align: center;
 }    
-.griddy div.pic1 {
-    grid-area: pic1;
-    align-self: center;
-}
-.griddy div.pic2 {
-    grid-area: pic2;
-    align-self: center;
-
+.griddy div.picleft {
+    grid-area: picleft;
 }
 .griddy div.piccenter {
     grid-area: piccenter;
     align-items: center;
     text-align: center;
 }
+.griddy div.picright {
+    grid-area: picright;
+    align-self: center;
+}
+
 .griddy div.footer {
     grid-area: footer;
     text-align: center;
