@@ -50,6 +50,7 @@ img {
       grid-area: m2;
     align-items: center;
     text-align: center;
+    object-fit:  fill;
     width: 100%;
 } 
 .griddy div.m3 {
@@ -62,6 +63,7 @@ img {
     grid-area: m4;
     align-items: center;
     text-align: center;
+    object-fit: fill;
     width: 100%;
 }
  
