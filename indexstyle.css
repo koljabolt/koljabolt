@@ -52,19 +52,13 @@ img {
 .griddy div.t3 {
     grid-area: t3;
 }
-.griddy div.m1 {
-    grid-area: m1;
-    text-align: center;
-}
+
 .griddy div.m2 {
     grid-area: m2;
     text-align: center;
     justify-content: center;
     height: auto;
-}
-.griddy div.m3 {
-    grid-area: m3;
-}    
+} 
 
 .griddy div.p3 {
     grid-area: p3;
