@@ -63,6 +63,7 @@ img {
 .griddy div.m3 img{
     display: block;
     width: 100px;
+    height: auto;
 }
 
 
