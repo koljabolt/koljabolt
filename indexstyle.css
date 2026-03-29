@@ -34,7 +34,7 @@ h2 {
     grid-template-columns: 1fr 1fr;
     gap: 1px;
     padding: 10px;
-    margin:10px;
+    margin: 10px;
     border: 1px;
     grid-template-areas: 
         "t2 t2"
@@ -69,7 +69,7 @@ h2 {
 .griddy div.m3 a {
   display: block;
   flex: 0;
-  margin: 0 -15px;
+  margin: 0;
 }
 .griddy div.m3 img{
     display: block;
