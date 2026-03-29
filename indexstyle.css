@@ -62,12 +62,16 @@ h2 {
     align-items: center;
     gap: 10px;
 }
+.griddy div.m3 a {
+  display: block;
+}
 .griddy div.m3 img{
     display: block;
     width: 1000px;
     max-width: 100%;
     height: auto;
 }
+
 .griddy div.b2 {
     grid-area: b2;
     text-align: center;
