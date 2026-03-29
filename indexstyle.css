@@ -63,6 +63,7 @@ h2 {
     display: block;
     height: 50%;
     width: auto;
+    object-fit: contain;
 }
 .griddy div.b2 {
     grid-area: b2;
