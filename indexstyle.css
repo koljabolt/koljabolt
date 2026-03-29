@@ -38,8 +38,8 @@ h2 {
     border: 1px;
     grid-template-areas: 
         "t2 t2"
-        "m3 m3"
         "b2 b2"
+        "m3 m3"
         "f2 f2";
 }
 .griddy div {
@@ -52,6 +52,13 @@ h2 {
     max-width: 100%;
     height: 200px;
 } 
+.griddy div.b2 {
+    grid-area: b2;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+}  
+
 .griddy div.m3 {
     grid-area: m3;
     display: flex;
@@ -62,6 +69,7 @@ h2 {
 .griddy div.m3 a {
   display: block;
   flex: 0;
+  margin: 0 -15px;
 }
 .griddy div.m3 img{
     display: block;
@@ -69,12 +77,6 @@ h2 {
     height: auto;
 }
 
-.griddy div.b2 {
-    grid-area: b2;
-    text-align: center;
-    justify-content: center;
-    height: auto;
-}  
 .griddy div.f2 {
     grid-area: f2;
     text-align: center;
