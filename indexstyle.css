@@ -58,6 +58,7 @@ h2 {
 .griddy div.m3 {
     grid-area: m3;
     display: flex;
+    justify-content: center;
 }
 .griddy div.m3 img{
     display: block;
