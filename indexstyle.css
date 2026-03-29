@@ -22,6 +22,17 @@ img {
     height: auto;
 }
 
+.icon-container {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+.icon-container img {
+    display: block;
+    width: 50px;
+    height: auto;
+}
+
 .griddy {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
