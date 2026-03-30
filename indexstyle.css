@@ -3,13 +3,13 @@ background: #dde1e5;
 background-image: url("images/bg text 01.png");
 }
 h1 {
-    color:  rgb(106, 106, 106);
+    color:  rgb(105, 105, 105);
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 40px;
+    font-size: 60px;
     font-stretch: condensed;
 }
 h2 {
-    color: rgb(124, 124, 124);
+    color: rgb(75, 75, 75);
     font-family: "Helvetica Neue Light", sans-serif;
     font-size: 20px;
     text-align: center;
@@ -50,7 +50,7 @@ h2 {
     justify-content: center;
     text-align: center;
     max-width: 100%;
-    height: 200px;
+    height: auto;
 } 
 .griddy div.b2 {
     grid-area: b2;
