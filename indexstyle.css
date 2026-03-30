@@ -71,8 +71,9 @@ h2 {
 }
 .griddy div.m3 img{
     display: block;
-    width: 400px;
+    width: 45vw;
     height: auto;
+    max-width: 400px;
 }
 
 .griddy div.f2 {
