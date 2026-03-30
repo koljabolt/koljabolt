@@ -101,7 +101,7 @@ h1 {
 }
 
 /* The circles on the timeline */
-.container::after {
+/*.container::after {
   content: '';
   position: absolute;
   width: 15px;
@@ -112,7 +112,7 @@ h1 {
   top: 15px;
   border-radius:60%;
   z-index: 1;
-}
+}*/
 
 /* Place the container to the left */
 .left {
