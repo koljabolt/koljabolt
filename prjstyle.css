@@ -21,6 +21,15 @@ h1 {
   text-align: center;
   margin: 0px;
 }
+h2 {
+    color: rgb(75, 75, 75);
+    font-family: "Helvetica Neue Light", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    outline-style: none;
+    padding: 2px;
+    font-weight: lighter;
+}
 
 /* Container holding the image and menu */
 .dropdown {
