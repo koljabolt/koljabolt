@@ -2,8 +2,9 @@ body{
 background: #dde1e5;
 background-image: url("images/bg text 01.png");
 background-repeat: repeat;
-background-size: 645px 635px;
+opacity: 60%;
 }
+
 h1 {
     color:  rgb(105, 105, 105);
     font-family: "Helvetica Neue", sans-serif;
